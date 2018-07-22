@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "Retry Failed test Suite"> 
+
+	<listeners>
+		<listener class-name="analyzer.MyTransformer" />
+	</listeners>
+
+
+<test name="Retry failed Test Cases">
+<classes>
+
+<class name="mytests.MyTest"> </class>
+
+</classes>
+</test>
+</suite>
